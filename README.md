@@ -1,11 +1,8 @@
 # pynecone-helper
 
-Requirements
-<pre>
-pip install pynecone
-
-
-</pre>
+Install Node.js (npm) (Windows)  
+https://nodejs.org/ko/download/  
+https://nodejs.org/download/release/v13.9.0/  
 
 Supported API
 <pre>
