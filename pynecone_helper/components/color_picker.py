@@ -2,7 +2,7 @@ import pynecone as pc
 
 '''
 #https://www.npmjs.com/package/react-colorful
-#reactjs 컴포넌트 사용 자바스크립트 코드
+#react-colorful reactjs 컴포넌트 사용 자바스크립트 코드
 import { HexColorPicker } from "react-colorful";
 
 const YourComponent = () => {
