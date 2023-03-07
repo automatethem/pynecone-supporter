@@ -4,7 +4,7 @@ Install Node.js (npm) (Windows)
 https://nodejs.org/ko/download/  
 https://nodejs.org/download/release/v13.9.0/  
 
-Supported API
+Supported APIs
 <pre>
 import pynecone_helper
 
