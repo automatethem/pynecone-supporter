@@ -31,3 +31,6 @@ config = pc.Config(
     ], #
 )
 ```
+
+Examples:  
+https://github.com/automatethem/pynecone-helper/blob/main/examples/color_picker.py
