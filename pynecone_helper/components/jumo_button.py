@@ -6,8 +6,8 @@ class JumoButton(pc.Component):
     tag = "JumoButton" #import 뒤 리액트 컴포넌트의 태그 이름
     background_color: pc.Var[str]
 
-    #@classmethod
-    #def get_controlled_triggers(cls) -> dict[str, pc.Var]:
-    #    return {"on_change": pc.EVENT_ARG} #onChange -> on_change
+    @classmethod
+    def get_controlled_triggers(cls) -> dict[str, pc.Var]:
+        return {"on_click": pc.EVENT_ARG} #onClick -> on_click
 
 jumo_button = JumoButton.create
