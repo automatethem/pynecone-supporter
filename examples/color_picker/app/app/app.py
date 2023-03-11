@@ -5,6 +5,8 @@ class State(pc.State):
     color = "#aabbcc"
 
 def index():
+    #print(pynecone_helper.color_picker(on_change=State.set_color)) #
+    #print(type(pynecone_helper.color_picker(on_change=State.set_color))) #    
     return pc.box(
         pc.vstack(
             pc.heading(State.color),
