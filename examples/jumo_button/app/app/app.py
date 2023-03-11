@@ -2,7 +2,7 @@ import pynecone as pc
 import pynecone_helper
 
 def index():
-    #print(jumo_button(background_color='red', font_color= "#aabbcc")) #<JumoButton fontColor="#aabbcc" backgroundColor="red"/>
+    #print(pynecone_helper.jumo_button(background_color='red', font_color= "#aabbcc")) #<JumoButton fontColor="#aabbcc" backgroundColor="red"/>
     #print(type(jumo_button(background_color='red', font_color= "#aabbcc"))) #<class 'test.test.JumoButton'>    
     return pc.box(
         pc.vstack(
