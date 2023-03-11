@@ -9,7 +9,7 @@ def index():
     return pc.box(
         pc.vstack(
             pc.heading(State.color),
-            pynecone_helper.jumo_button(on_change=State.set_color),
+            pynecone_helper.jumo_button(background_color='red'),
         ),
         #background_color=State.color,
         padding="5em",
