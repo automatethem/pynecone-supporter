@@ -22,7 +22,6 @@ config = pc.Config(
     env=pc.Env.DEV,
     frontend_packages=[ #
         "react-colorful", #
-        "react-supporter", #
     ], #
 )
 ```
@@ -36,7 +35,6 @@ config = pc.Config(
     db_url="sqlite:///pynecone.db",
     env=pc.Env.DEV,
     frontend_packages=[ #
-        "react-colorful", #
         "react-supporter", #
     ], #
 )
