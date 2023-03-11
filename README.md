@@ -34,4 +34,5 @@ config = pc.Config(
 ```
 
 Examples:  
-https://github.com/automatethem/pynecone-helper/blob/main/examples/color_picker.py
+https://github.com/automatethem/pynecone-helper/blob/main/examples/color_picker/app/app/app.py  
+https://github.com/automatethem/pynecone-helper/blob/main/examples/jumo_button/app/app/app.py
