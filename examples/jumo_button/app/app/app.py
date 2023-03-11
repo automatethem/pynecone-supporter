@@ -10,7 +10,7 @@ def index():
     #print(type(pynecone_helper.jumo_button(background_color='red', font_color= "#aabbcc"))) #<class 'test.test.JumoButton'>    
     return pc.box(
         pc.vstack(
-            pc.text(State.color),
+            pc.text(State.background_color),
             pynecone_helper.jumo_button(background_color='red', font_color= "#aabbcc"),
         ),
         background_color=State.background_color,
