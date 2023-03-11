@@ -9,7 +9,7 @@ def index():
     #print(type(pynecone_helper.color_picker(on_change=State.set_color))) #    
     return pc.box(
         pc.vstack(
-            pc.heading(State.color),
+            pc.text(State.color),
             pynecone_helper.color_picker(on_change=State.set_color),
         ),
         background_color=State.color,
