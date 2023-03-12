@@ -6,13 +6,13 @@ def requirements():
         return f.read().splitlines()
 
 setuptools.setup(
-	name='pynecone-helper',
-	version='0.0.1',
-	description='Pynecone helper',
+	name='pynecone-supporter',
+	version='0.0.2',
+	description='Pynecone supporter',
 	long_description=open('README.md').read(),
 	long_description_content_type='text/markdown',
 	author='Sang Ki Kwon',
-	url='https://github.com/automatethem/pynecone-helper',
+	url='https://github.com/automatethem/pynecone-supporter',
 	install_requires=requirements(),
 	author_email='automatethem@gmail.com',
 	license='MIT',
