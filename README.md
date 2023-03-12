@@ -1,5 +1,10 @@
 # pynecone-supporter
 
+https://pypi.org/project/pynecone-supporter
+<pre>
+pip install pynecone-supporter
+</pre>
+
 Install Node.js (npm) (Windows)  
 https://nodejs.org/ko/download/  
 https://nodejs.org/download/release/v13.9.0/  
