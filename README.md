@@ -1,4 +1,4 @@
-# pynecone-helper
+# pynecone-supporter
 
 Install Node.js (npm) (Windows)  
 https://nodejs.org/ko/download/  
@@ -6,13 +6,13 @@ https://nodejs.org/download/release/v13.9.0/
 
 Supported APIs
 <pre>
-import pynecone_helper
+import pynecone_supporter
 
-pynecone_helper.color_picker
-pynecone_helper.jumo_button
+pynecone_supporter.color_picker
+pynecone_supporter.jumo_button
 </pre>
 
-https://github.com/automatethem/pynecone-helper/blob/main/examples/color_picker/app/pcconfig.py  
+https://github.com/automatethem/pynecone-supporter/blob/main/examples/color_picker/app/pcconfig.py  
 ```
 import pynecone as pc
 
@@ -26,7 +26,7 @@ config = pc.Config(
 )
 ```
 
-https://github.com/automatethem/pynecone-helper/blob/main/examples/jumo_button/app/pcconfig.py  
+https://github.com/automatethem/pynecone-supporter/blob/main/examples/jumo_button/app/pcconfig.py  
 ```
 import pynecone as pc
 
@@ -42,5 +42,5 @@ config = pc.Config(
 
 Examples:  
 
-https://github.com/automatethem/pynecone-helper/blob/main/examples/color_picker/app/app/app.py  
-https://github.com/automatethem/pynecone-helper/blob/main/examples/jumo_button/app/app/app.py
+https://github.com/automatethem/pynecone-supporter/blob/main/examples/color_picker/app/app/app.py  
+https://github.com/automatethem/pynecone-supporter/blob/main/examples/jumo_button/app/app/app.py
