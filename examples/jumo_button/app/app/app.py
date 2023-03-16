@@ -1,17 +1,17 @@
 import pynecone as pc
-import pynecone_helper
+import pynecone_supporter
 
 class State(pc.State):
     background_color = "#aabbcc"
     font_color = "#aabbcc"
     
 def index():
-    #print(pynecone_helper.jumo_button(background_color='red', font_color= "#aabbcc")) #<JumoButton fontColor="#aabbcc" backgroundColor="red"/>
-    #print(type(pynecone_helper.jumo_button(background_color='red', font_color= "#aabbcc"))) #<class 'test.test.JumoButton'>    
+    #print(pynecone_supporter.jumo_button(background_color='red', font_color= "#aabbcc")) #<JumoButton fontColor="#aabbcc" backgroundColor="red"/>
+    #print(type(pynecone_supporter.jumo_button(background_color='red', font_color= "#aabbcc"))) #<class 'test.test.JumoButton'>    
     return pc.box(
         pc.vstack(
             pc.text(State.background_color),
-            pynecone_helper.jumo_button(background_color='red', font_color= "#aabbcc"),
+            pynecone_supporter.jumo_button(background_color='red', font_color= "#aabbcc"),
         ),
         background_color=State.background_color,
         padding="5em",
