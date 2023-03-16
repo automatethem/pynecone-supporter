@@ -1,25 +1,9 @@
 import pynecone as pc
-#import pynecone_supporter
+import pynecone_supporter
 
 class State(pc.State):
-    json_object = """
-  {
-    name: 'may',
-    age: null,
-    address: [
-      'Panyu Shiqiao on Canton',
-      'Tianhe',
-      {
-        city: 'forida meta 11',
-      },
-    ],
-    ohters: {
-      id: 1246,
-      joinTime: '2017-08-20. 10:20',
-      description: 'another',
-    },
-  }
-    """
+    #json_object = """{ "aaa": "bbb", "ddfd": "fgfg" }"""
+    json_object = """[{ "aaa": "bbb", "ddfd": "fgfg" }]"""
 
 def index():
     #print(pynecone_supporter.json_editor(on_change=State.set_data)) #
@@ -27,8 +11,7 @@ def index():
     return pc.box(
         pc.vstack(
             pc.text(State.json_object),
-            #pynecone_supporter.json_editor(on_change=State.set_data),
-            json_editor(on_change=State.set_json_object),
+            pynecone_supporter.json_editor(on_change=State.set_data),
         ),
         padding="5em",
         border_radius="1em",
