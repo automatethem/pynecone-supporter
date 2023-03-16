@@ -11,7 +11,7 @@ def index():
     return pc.box(
         pc.vstack(
             pc.text(State.background_color),
-            pynecone_supporter.jumo_button(background_color='red', font_color= "#aabbcc"),
+            pynecone_supporter.components.jumo_button(background_color='red', font_color= "#aabbcc"),
         ),
         background_color=State.background_color,
         padding="5em",
