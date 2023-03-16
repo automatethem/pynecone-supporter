@@ -4,11 +4,20 @@ import pynecone_supporter
 class State(pc.State):
     data = """
   {
-    order: {
-      id: 'order_124831sf23j123',
-      isSuccess: true,
-      price: 70000
-    }
+    name: 'may',
+    age: null,
+    address: [
+      'Panyu Shiqiao on Canton',
+      'Tianhe',
+      {
+        city: 'forida meta 11',
+      },
+    ],
+    ohters: {
+      id: 1246,
+      joinTime: '2017-08-20. 10:20',
+      description: 'another',
+    },
   }
     """
 
