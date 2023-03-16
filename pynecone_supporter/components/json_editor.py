@@ -6,7 +6,7 @@ class JsonEditor(pc.Component):
     tag = "JsonEditor" #import 뒤 리액트 컴포넌트의 태그 이름
     #리액트 속성에 대응
     data: pc.Var[str] #data
-    optionsMap: pc.Var[str]
+    options_map: pc.Var[str]
 
     #리액트 이벤트에 대응
     @classmethod
