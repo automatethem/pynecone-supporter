@@ -29,8 +29,7 @@ config = pc.Config(
     frontend_packages=[ #
         "react-colorful", #
         "react-supporter", #
-        #"rc-json-editor", #
-        "react-json-editor-ui" #
+        "react-jsondata-editor" #
     ], #
 )
 ```
