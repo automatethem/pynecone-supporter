@@ -10,7 +10,7 @@ class JumoButton(pc.Component):
 
     #리액트 이벤트에 대응
     @classmethod
-    def get_controlled_triggers(cls) -> dict[str, pc.Var]:
+    def get_controlled_triggers(cls):
         return {"on_click": pc.EVENT_ARG} #onClick
 
 jumo_button = JumoButton.create
