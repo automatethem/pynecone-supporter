@@ -6,8 +6,8 @@ class State(pc.State):
     font_color = "#aabbcc"
     
 def index():
-    #print(pynecone_supporter.jumo_button(background_color='red', font_color= "#aabbcc")) #<JumoButton fontColor="#aabbcc" backgroundColor="red"/>
-    #print(type(pynecone_supporter.jumo_button(background_color='red', font_color= "#aabbcc"))) #<class 'test.test.JumoButton'>    
+    #print(pynecone_supporter.components.jumo_button(background_color='red', font_color= "#aabbcc")) #<JumoButton fontColor="#aabbcc" backgroundColor="red"/>
+    #print(type(pynecone_supporter.components.jumo_button(background_color='red', font_color= "#aabbcc"))) #<class 'test.test.JumoButton'>    
     return pc.box(
         pc.vstack(
             pc.text(State.background_color),
