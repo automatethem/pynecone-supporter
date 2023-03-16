@@ -1,22 +1,29 @@
 import pynecone as pc
-import pynecone_helper
+import pynecone_supporter
 
 class State(pc.State):
-    color = "#aabbcc"
+    data = """
+  {
+    order: {
+      id: 'order_124831sf23j123',
+      isSuccess: true,
+      price: 70000
+    }
+  }
+    """
 
 def index():
-    #print(pynecone_helper.color_picker(on_change=State.set_color)) #<HexColorPicker onChange={(_e) => Event([E("state.set_color", {value:_e})])}/>
-    #print(type(pynecone_helper.color_picker(on_change=State.set_color))) #<class 'test.test.ColorPicker'>  
+    #print(pynecone_supporter.json_editor(on_change=State.set_data)) #
+    #print(type(pynecone_supporter.json_editor(on_change=State.set_data))) #
     return pc.box(
         pc.vstack(
-            pc.text(State.color),
-            pynecone_helper.color_picker(on_change=State.set_color),
+            pc.text(State.data),
+            pynecone_supporter.json_editor(on_change=State.set_data),
         ),
-        background_color=State.color,
         padding="5em",
         border_radius="1em",
     )
 
 app = pc.App(state=State)
-app.add_page(index, title="Color picker")
+app.add_page(index, title="Json editor")
 app.compile()
