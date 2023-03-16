@@ -38,5 +38,9 @@ config = pc.Config(
 Examples:  
 
 https://github.com/automatethem/pynecone-supporter/blob/main/examples/color_picker/app/app/app.py  
+
 https://github.com/automatethem/pynecone-supporter/blob/main/examples/jumo_button/app/app/app.py  
+
 https://github.com/automatethem/pynecone-supporter/blob/main/examples/json_editor/app/app/app.py
+
+<img src="https://github.com/automatethem/pynecone-supporter/blob/main/readme_files/screenshot1.PNG?raw=true">
