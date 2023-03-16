@@ -10,13 +10,14 @@ https://nodejs.org/ko/download/
 https://nodejs.org/download/release/v13.9.0/  
 
 Supported APIs
-<pre>
+```
 import pynecone_supporter
 
-pynecone_supporter.color_picker
-pynecone_supporter.jumo_button
-pynecone_supporter.json_editor
-</pre>
+pynecone_supporter.components.ColorPicker
+pynecone_supporter.components.JumoButton
+pynecone_supporter.components.JsonEditor
+pynecone_supporter.components.Webcam
+```
 
 app/pcconfig.py  
 ```
