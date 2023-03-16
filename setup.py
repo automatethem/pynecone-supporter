@@ -7,7 +7,7 @@ def requirements():
 
 setuptools.setup(
 	name='pynecone-supporter',
-	version='0.0.3',
+	version='0.0.4',
 	description='Pynecone supporter',
 	long_description=open('README.md').read(),
 	long_description_content_type='text/markdown',
