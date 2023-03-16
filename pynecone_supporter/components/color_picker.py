@@ -9,7 +9,7 @@ class ColorPicker(pc.Component):
 
     #리액트 이벤트에 대응
     @classmethod
-    def get_controlled_triggers(cls) -> dict[str, pc.Var]:
+    def get_controlled_triggers(cls):
         return {"on_change": pc.EVENT_ARG} #onChange
 
 color_picker = ColorPicker.create
