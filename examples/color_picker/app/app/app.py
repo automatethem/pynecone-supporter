@@ -10,7 +10,7 @@ def index():
     return pc.box(
         pc.vstack(
             pc.text(State.color),
-            pynecone_supporter.color_picker(on_change=State.set_color),
+            pynecone_supporter.components.color_picker(on_change=State.set_color),
         ),
         background_color=State.color,
         padding="5em",
