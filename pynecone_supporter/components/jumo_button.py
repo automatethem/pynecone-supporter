@@ -4,6 +4,7 @@ import pynecone as pc
 class JumoButton(pc.Component):
     library = "react-supporter" #from 뒤 npm 패키지 이름
     tag = "JumoButton" #import 뒤 리액트 컴포넌트의 태그 이름
+    
     #리액트 속성에 대응
     background_color: pc.Var[str]
     font_color: pc.Var[str]
