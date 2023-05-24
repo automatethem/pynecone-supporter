@@ -5,7 +5,7 @@ class State(pc.State):
     background_color = "#aabbcc"
     font_color = "#aabbcc"
     
-def index():
+def contents():
     #print(pynecone_supporter.components.jumo_button(background_color='red', font_color= "#aabbcc")) #<JumoButton fontColor="#aabbcc" backgroundColor="red"/>
     #print(type(pynecone_supporter.components.jumo_button(background_color='red', font_color= "#aabbcc"))) #<class 'test.test.JumoButton'>    
     return pc.box(
@@ -19,5 +19,5 @@ def index():
     )
 
 app = pc.App(state=State)
-app.add_page(index, title="Jumo button")
+app.add_page(contents, route="/", title="Jumo button")
 app.compile()
