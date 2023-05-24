@@ -31,6 +31,7 @@ config = pc.Config(
         "react-colorful", #
         "react-supporter", #
         "react-jsondata-editor" #
+        "react-webcam" #
     ], #
 )
 ```
