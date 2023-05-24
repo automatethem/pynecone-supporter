@@ -4,7 +4,7 @@ import pynecone_supporter
 class State(pc.State):
     color = "#aabbcc"
 
-def index():
+def contents():
     #print(pynecone_supporter.components.color_picker(on_change=State.set_color)) #<HexColorPicker onChange={(_e) => Event([E("state.set_color", {value:_e})])}/>
     #print(type(pynecone_supporter.components.color_picker(on_change=State.set_color))) #<class 'test.test.ColorPicker'>  
     return pc.box(
@@ -18,5 +18,5 @@ def index():
     )
 
 app = pc.App(state=State)
-app.add_page(index, title="Color picker")
+app.add_page(contents, route="/", title="Color picker")
 app.compile()
