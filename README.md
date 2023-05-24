@@ -13,10 +13,10 @@ Supported APIs
 ```
 import pynecone_supporter
 
-pynecone_supporter.components.ColorPicker
-pynecone_supporter.components.JumoButton
-pynecone_supporter.components.JsonEditor
-pynecone_supporter.components.Webcam
+pynecone_supporter.components.color_picker
+pynecone_supporter.components.jumo_button
+pynecone_supporter.components.json_editor
+pynecone_supporter.components.webcam
 ```
 
 app/pcconfig.py  
