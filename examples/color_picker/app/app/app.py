@@ -5,8 +5,6 @@ class State(pc.State):
     color = "#aabbcc"
 
 def contents():
-    #print(pynecone_supporter.components.color_picker(on_change=State.set_color)) #<HexColorPicker onChange={(_e) => Event([E("state.set_color", {value:_e})])}/>
-    #print(type(pynecone_supporter.components.color_picker(on_change=State.set_color))) #<class 'test.test.ColorPicker'>  
     return pc.box(
         pc.vstack(
             pc.text(State.color),
