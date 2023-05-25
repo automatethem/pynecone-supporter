@@ -6,8 +6,6 @@ class State(pc.State):
     json_object = """[{ "aaa": "bbb", "ddfd": "fgfg" }]"""
 
 def contents():
-    #print(pynecone_supporter.components.json_editor(on_change=State.set_data)) #
-    #print(type(pynecone_supporter.components.json_editor(on_change=State.set_data))) #
     return pc.box(
         pc.vstack(
             pc.text(State.json_object),
