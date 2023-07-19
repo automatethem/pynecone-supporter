@@ -1,13 +1,13 @@
-import pynecone as pc
-import pynecone_supporter
+import reflex as rx
+import reflex_supporter
 
-class State(pc.State):
+class State(rx.State):
     color = "#aabbcc"
 
 def contents():
-    return pc.box(
-        pc.vstack(
-            pc.text(State.color),
+    return rx.box(
+        rx.vstack(
+            rx.text(State.color),
             pynecone_supporter.components.color_picker(on_change=lambda color: State.set_color(color)),
         ),
         background_color=State.color,
@@ -15,6 +15,6 @@ def contents():
         border_radius="1em",
     )
 
-app = pc.App(state=State)
+app = rx.App(state=State)
 app.add_page(contents, route="/", title="Color picker")
 app.compile()
