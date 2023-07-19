@@ -6,13 +6,13 @@ def requirements():
         return f.read().splitlines()
 
 setuptools.setup(
-	name='pynecone-supporter',
-	version='0.0.6',
-	description='Pynecone supporter',
+	name='reflex-supporter',
+	version='0.0.7',
+	description='Reflex supporter',
 	long_description=open('README.md').read(),
 	long_description_content_type='text/markdown',
 	author='Sang Ki Kwon',
-	url='https://github.com/automatethem/pynecone-supporter',
+	url='https://github.com/automatethem/reflex-supporter',
 	install_requires=requirements(),
 	author_email='automatethem@gmail.com',
 	license='MIT',
